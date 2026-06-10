@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import PlayerCard from './PlayerCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  return(
+    <div>
+      <PlayerCard Name = "Elias"
+        Game = "Prince of Persia"
+        Level = "85">
+      </PlayerCard>
+      <PlayerCard Name = "George"
+        Game = "Assasins Creed"
+        Level = "49">
+      </PlayerCard>
+      <PlayerCard Name = "Maria"
+        Game = "Minecraft"
+        Level = "35">
+      </PlayerCard>
     </div>
-  );
+  )
 }
-
 export default App;
