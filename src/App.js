@@ -3,17 +3,17 @@ import PlayerCard from './PlayerCard';
 function App(){
   return(
     <div>
-      <PlayerCard Name = "Elias"
-        Game = "Prince of Persia"
-        Level = "85">
+      <PlayerCard name = "Elias"
+        game = "Prince of Persia"
+        level = "85">
       </PlayerCard>
-      <PlayerCard Name = "George"
-        Game = "Assasins Creed"
-        Level = "49">
+      <PlayerCard name = "George"
+        game = "Assasins Creed"
+        level = "49">
       </PlayerCard>
-      <PlayerCard Name = "Maria"
-        Game = "Minecraft"
-        Level = "35">
+      <PlayerCard name = "Maria"
+        game = "Minecraft"
+        level = "35">
       </PlayerCard>
     </div>
   )

@@ -1,9 +1,6 @@
 import {useState} from 'react';
 
-function PlayerCard({
-    name,
-    game,level
-}){
+function PlayerCard({name,game,level}){
     const[likes,setLikes] = useState(0);
     function increaseLikes(){
         setLikes(prev => prev + 1);
