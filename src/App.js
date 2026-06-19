@@ -1,4 +1,4 @@
-import PlayerCard from './PlayerCard';
+import PlayerCard from "./PlayerCard";
 
 function App(){
   return(
@@ -14,6 +14,11 @@ function App(){
       <PlayerCard name = "Maria"
         game = "Minecraft"
         level = "35">
+      </PlayerCard>
+      <PlayerCard name = "John"
+        game = "Prince of Persia"
+        level = "30">
+
       </PlayerCard>
     </div>
   )
