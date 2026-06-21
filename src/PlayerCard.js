@@ -5,6 +5,9 @@ function PlayerCard({name,game,level}){
 function increaseLikes(){
     setLikes(prev => prev +1);
     }
+function decreaseLikes(){
+    setLikes(prev => prev -1);
+    }
     return(
         <div>
             <h2>{name}</h2>
@@ -12,6 +15,7 @@ function increaseLikes(){
             <p>Level: {level}</p>
             <p>Likes: {likes}</p>
             <button onClick = {increaseLikes}>+</button>
+            <button onClick = {decreaseLikes}>-</button>
         </div>
     )
 }
